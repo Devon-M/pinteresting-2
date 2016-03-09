@@ -82,7 +82,6 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { :host => 'https://vast-anchorage-3236.herokuapp.com/' }
 
   # Sets paperclip to upload images to Amazon S3
-  # Have Not Yet Set up AWS account - Images unavailable on Heroku until then.
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
